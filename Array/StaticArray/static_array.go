@@ -1,15 +1,15 @@
-package staticArray
+package main
 
 import "fmt"
 
-func main () {
+func main() {
 	var numbers [5]int
 
-	var soice []int // slice is dynamic array
+	var _ []int // slice is dynamic array
 
-	arr := [5]int{10, 20 , 30, 40 ,50}
+	arr := [5]int{10, 20, 30, 40, 50}
 
-	b   := [...]int{1, 2, 3, 4, 5}
+	b := [...]int{1, 2, 3, 4, 5}
 
 	numbers[0] = 11
 
